@@ -1,0 +1,306 @@
+---
+import '../styles/site.css';
+const title = "Contact Us | Hollytree Luxury Boarding Cattery Colchester";
+const description = "Get in touch with Hollytree Cattery in Colchester. Call us on 01206 562338 or send us a message to check availability.";
+---
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+</head>
+<body>
+
+<!-- Preview Banner -->
+<div style="background:#B45309;color:white;padding:10px 16px;text-align:center;font-size:14px;position:sticky;top:0;z-index:50"><div style="max-width:56rem;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap"><span>Preview redesign for <strong>Hollytree Cattery</strong></span><a href="https://biscuitweb.co.uk/activate?id=P2451&amp;name=Hollytree%20Cattery" style="display:inline-flex;align-items:center;padding:4px 16px;background:white;color:#B45309;font-weight:700;font-size:12px;border-radius:9999px;text-decoration:none">Like it? Just £20/month</a></div></div>
+
+<!-- Navigation -->
+<nav class="bg-[var(--color-brand-accent)] text-white">
+  <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+    <a href="/P2451/" class="font-display font-800 text-xl text-white no-underline">
+      🐱 Hollytree Cattery
+    </a>
+    <ul class="hidden md:flex items-center gap-6 list-none m-0 p-0">
+      <li><a href="/P2451/" class="text-white hover:text-[var(--color-accent-light)] text-sm font-semibold no-underline transition-colors">Home</a></li>
+      <li><a href="/P2451/hollytreeourcattery-html" class="text-white hover:text-[var(--color-accent-light)] text-sm font-semibold no-underline transition-colors">Our Cattery</a></li>
+      <li><a href="/P2451/hollytreeopeningtimes-html" class="text-white hover:text-[var(--color-accent-light)] text-sm font-semibold no-underline transition-colors">Opening Times</a></li>
+      <li><a href="/P2451/hollytreecathealth-html" class="text-white hover:text-[var(--color-accent-light)] text-sm font-semibold no-underline transition-colors">Cat Health</a></li>
+      <li><a href="/P2451/hollytreecatteryprices-html" class="text-white hover:text-[var(--color-accent-light)] text-sm font-semibold no-underline transition-colors">Prices</a></li>
+      <li><a href="/P2451/hollytreecontactus-html" class="bg-white text-[var(--color-brand-accent)] px-4 py-2 rounded-full text-sm font-700 no-underline">Contact Us</a></li>
+    </ul>
+    <button id="menu-toggle" class="md:hidden flex flex-col gap-1.5 p-2" aria-label="Open menu" aria-expanded="false">
+      <span class="block w-6 h-0.5 bg-white"></span>
+      <span class="block w-6 h-0.5 bg-white"></span>
+      <span class="block w-6 h-0.5 bg-white"></span>
+    </button>
+  </div>
+  <div id="mobile-menu" class="hidden md:hidden bg-[var(--color-brand-accent-deep)] px-4 pb-4">
+    <ul class="list-none m-0 p-0 flex flex-col gap-3 pt-3">
+      <li><a href="/P2451/" class="text-white font-semibold no-underline block py-1">Home</a></li>
+      <li><a href="/P2451/hollytreeourcattery-html" class="text-white font-semibold no-underline block py-1">Our Cattery</a></li>
+      <li><a href="/P2451/hollytreeopeningtimes-html" class="text-white font-semibold no-underline block py-1">Opening Times</a></li>
+      <li><a href="/P2451/hollytreecathealth-html" class="text-white font-semibold no-underline block py-1">Cat Health</a></li>
+      <li><a href="/P2451/hollytreecatteryprices-html" class="text-white font-semibold no-underline block py-1">Prices</a></li>
+      <li><a href="/P2451/hollytreecontactus-html" class="text-white font-semibold no-underline block py-1">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Page Hero -->
+<section class="relative h-72 md:h-96 flex items-end overflow-hidden">
+  <img
+    src="/P2451/images/extended-page-contact-us-3-01.jpg"
+    alt="Contact Hollytree Cattery in Colchester"
+    class="absolute inset-0 w-full h-full object-cover"
+    fetchpriority="high"
+    width="636"
+    height="1149"
+  />
+  <div class="absolute inset-0 bg-black/70"></div>
+  <div class="relative z-10 max-w-6xl mx-auto px-4 py-10 text-white w-full">
+    <div class="inline-flex items-center gap-2 bg-white/20 border border-white/30 rounded-full px-4 py-1.5 text-sm font-semibold mb-3">
+      📍 Colchester, Essex
+    </div>
+    <h1 class="text-3xl md:text-5xl font-800 text-white">Contact Us</h1>
+  </div>
+</section>
+
+<!-- Contact Content -->
+<section class="py-16 bg-[var(--color-brand-bg)]">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="grid md:grid-cols-2 gap-12">
+
+      <!-- Contact details -->
+      <div>
+        <h2 class="text-2xl md:text-3xl font-800 text-[var(--color-ink)] mb-8">Get in Touch</h2>
+
+        <div class="flex flex-col gap-5 mb-8">
+          <!-- Phone -->
+          <div class="flex items-start gap-4 bg-white rounded-2xl p-5 shadow-sm">
+            <div class="text-3xl shrink-0">📞</div>
+            <div>
+              <div class="font-800 text-[var(--color-ink)] mb-1">Telephone</div>
+              <a href="tel:+441206562338" class="text-[var(--color-brand-accent)] font-700 text-lg no-underline hover:underline">01206 562338</a>
+              <p class="text-[var(--color-ink-soft)] text-sm mt-1">Best way to reach us. We're available during opening hours.</p>
+            </div>
+          </div>
+
+          <!-- Address -->
+          <div class="flex items-start gap-4 bg-white rounded-2xl p-5 shadow-sm">
+            <div class="text-3xl shrink-0">📍</div>
+            <div>
+              <div class="font-800 text-[var(--color-ink)] mb-1">Address</div>
+              <address class="not-italic text-[var(--color-ink-soft)] text-sm leading-relaxed">
+                Hollytree Cattery<br />
+                21A Blackheath<br />
+                Colchester<br />
+                Essex
+              </address>
+            </div>
+          </div>
+
+          <!-- Opening times reminder -->
+          <div class="flex items-start gap-4 bg-white rounded-2xl p-5 shadow-sm">
+            <div class="text-3xl shrink-0">🕐</div>
+            <div>
+              <div class="font-800 text-[var(--color-ink)] mb-1">Opening Hours</div>
+              <p class="text-[var(--color-ink-soft)] text-sm leading-relaxed">Drop-off and collection: 9:00am &ndash; 11:00am and 4:00pm &ndash; 6:00pm daily.</p>
+              <a href="/P2451/hollytreeopeningtimes-html" class="text-[var(--color-brand-accent)] text-sm font-600 no-underline hover:underline mt-1 inline-block">Full opening times &rarr;</a>
+            </div>
+          </div>
+
+          <!-- Facebook -->
+          <div class="flex items-start gap-4 bg-white rounded-2xl p-5 shadow-sm">
+            <div class="text-3xl shrink-0">👍</div>
+            <div>
+              <div class="font-800 text-[var(--color-ink)] mb-1">Find Us on Facebook</div>
+              <p class="text-[var(--color-ink-soft)] text-sm leading-relaxed mb-2">Keep up with news and updates from Hollytree Cattery on our Facebook page.</p>
+              <div class="rounded-xl overflow-hidden">
+                <img
+                  src="/P2451/images/find-us-on-facebook-03.jpg"
+                  alt="Hollytree Cattery on Facebook"
+                  class="w-full object-cover"
+                  loading="lazy"
+                  width="564"
+                  height="176"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact form -->
+      <div>
+        <h2 class="text-2xl md:text-3xl font-800 text-[var(--color-ink)] mb-8">Send Us a Message</h2>
+        <form action="https://formspree.io/f/mwvaaojq" method="POST" class="flex flex-col gap-4">
+          <div>
+            <label for="name" class="block text-sm font-600 text-[var(--color-ink)] mb-1.5">Your Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              class="w-full border border-[var(--color-border)] rounded-xl px-4 py-3 text-sm text-[var(--color-ink)] bg-white focus:outline-none focus:border-[var(--color-brand-accent)] focus:ring-2 focus:ring-[var(--color-brand-accent)]/20"
+              placeholder="Your full name"
+            />
+          </div>
+          <div>
+            <label for="email" class="block text-sm font-600 text-[var(--color-ink)] mb-1.5">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              class="w-full border border-[var(--color-border)] rounded-xl px-4 py-3 text-sm text-[var(--color-ink)] bg-white focus:outline-none focus:border-[var(--color-brand-accent)] focus:ring-2 focus:ring-[var(--color-brand-accent)]/20"
+              placeholder="your@email.com"
+            />
+          </div>
+          <div>
+            <label for="phone" class="block text-sm font-600 text-[var(--color-ink)] mb-1.5">Phone Number</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              class="w-full border border-[var(--color-border)] rounded-xl px-4 py-3 text-sm text-[var(--color-ink)] bg-white focus:outline-none focus:border-[var(--color-brand-accent)] focus:ring-2 focus:ring-[var(--color-brand-accent)]/20"
+              placeholder="Your phone number"
+            />
+          </div>
+          <div>
+            <label for="dates" class="block text-sm font-600 text-[var(--color-ink)] mb-1.5">Dates Required</label>
+            <input
+              type="text"
+              id="dates"
+              name="dates"
+              class="w-full border border-[var(--color-border)] rounded-xl px-4 py-3 text-sm text-[var(--color-ink)] bg-white focus:outline-none focus:border-[var(--color-brand-accent)] focus:ring-2 focus:ring-[var(--color-brand-accent)]/20"
+              placeholder="e.g. 1st August to 14th August"
+            />
+          </div>
+          <div>
+            <label for="cats" class="block text-sm font-600 text-[var(--color-ink)] mb-1.5">Number of Cats</label>
+            <select
+              id="cats"
+              name="cats"
+              class="w-full border border-[var(--color-border)] rounded-xl px-4 py-3 text-sm text-[var(--color-ink)] bg-white focus:outline-none focus:border-[var(--color-brand-accent)]"
+            >
+              <option value="">Please select</option>
+              <option value="1">1 cat</option>
+              <option value="2">2 cats</option>
+              <option value="3+">3 or more cats</option>
+            </select>
+          </div>
+          <div>
+            <label for="message" class="block text-sm font-600 text-[var(--color-ink)] mb-1.5">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              class="w-full border border-[var(--color-border)] rounded-xl px-4 py-3 text-sm text-[var(--color-ink)] bg-white focus:outline-none focus:border-[var(--color-brand-accent)] focus:ring-2 focus:ring-[var(--color-brand-accent)]/20 resize-none"
+              placeholder="Any additional information, special requirements..."
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            class="w-full px-8 py-3 bg-[var(--color-brand-accent)] text-white font-700 rounded-full hover:bg-[var(--color-brand-accent-deep)] transition-colors text-base cursor-pointer border-none"
+          >
+            Send Message
+          </button>
+        </form>
+
+        <!-- Email image reference -->
+        <div class="mt-6 rounded-xl overflow-hidden">
+          <img
+            src="/P2451/images/hollytree-cattery-email-04.jpg"
+            alt="Hollytree Cattery contact"
+            class="w-full object-cover"
+            loading="lazy"
+            width="564"
+            height="137"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Location images -->
+<section class="py-12 bg-[var(--color-cream)]">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-2xl font-800 text-[var(--color-ink)] text-center mb-8">How to Find Us</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="rounded-2xl overflow-hidden shadow-sm">
+        <img
+          src="/P2451/images/hollytree-cattery-website-page-contact-u.jpg"
+          alt="Finding Hollytree Cattery"
+          class="w-full object-cover"
+          loading="lazy"
+          width="564"
+          height="131"
+        />
+      </div>
+      <div class="rounded-2xl overflow-hidden shadow-sm">
+        <img
+          src="/P2451/images/extended-pagefees-02.jpg"
+          alt="Hollytree Cattery Colchester"
+          class="w-full h-full object-cover"
+          loading="lazy"
+          width="564"
+          height="705"
+        />
+      </div>
+    </div>
+    <div class="mt-8 bg-white rounded-2xl p-6 shadow-sm max-w-2xl mx-auto text-center">
+      <p class="text-[var(--color-ink-soft)] text-sm leading-relaxed mb-4">
+        We are located at <strong class="text-[var(--color-ink)]">21A Blackheath, Colchester, Essex</strong>. If you need directions or have trouble finding us, please ring us on <a href="tel:+441206562338" class="text-[var(--color-brand-accent)] font-700 no-underline hover:underline">01206 562338</a> and we'll talk you in.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-[var(--color-brand-accent-deep)] text-white py-12">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="grid md:grid-cols-3 gap-8 mb-8">
+      <div>
+        <h3 class="font-800 text-lg mb-4">Hollytree Cattery</h3>
+        <p class="text-white/80 text-sm leading-relaxed">Luxury boarding cattery in Colchester, serving Essex and Suffolk.</p>
+      </div>
+      <div>
+        <h3 class="font-800 text-lg mb-4">Pages</h3>
+        <ul class="list-none m-0 p-0 flex flex-col gap-2">
+          <li><a href="/P2451/" class="text-white/80 hover:text-white text-sm no-underline">Home</a></li>
+          <li><a href="/P2451/hollytreeourcattery-html" class="text-white/80 hover:text-white text-sm no-underline">Our Cattery</a></li>
+          <li><a href="/P2451/hollytreeopeningtimes-html" class="text-white/80 hover:text-white text-sm no-underline">Opening Times</a></li>
+          <li><a href="/P2451/hollytreecathealth-html" class="text-white/80 hover:text-white text-sm no-underline">Cat Health</a></li>
+          <li><a href="/P2451/hollytreecatteryprices-html" class="text-white/80 hover:text-white text-sm no-underline">Prices</a></li>
+          <li><a href="/P2451/hollytreecontactus-html" class="text-white/80 hover:text-white text-sm no-underline">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-800 text-lg mb-4">Contact</h3>
+        <ul class="list-none m-0 p-0 flex flex-col gap-2 text-sm text-white/80">
+          <li>21A Blackheath, Colchester</li>
+          <li><a href="tel:+441206562338" class="text-white/80 hover:text-white no-underline">01206 562338</a></li>
+          <li>Essex &amp; Suffolk</li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-white/20 pt-6 text-center text-white/60 text-sm">
+      &copy; {new Date().getFullYear()} Hollytree Cattery. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+  toggle?.addEventListener('click', () => {
+    const open = menu?.classList.toggle('hidden');
+    toggle.setAttribute('aria-expanded', String(!open));
+  });
+</script>
+
+</body>
+</html>

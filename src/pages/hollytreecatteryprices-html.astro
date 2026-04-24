@@ -1,0 +1,266 @@
+---
+import '../styles/site.css';
+const title = "Prices | Hollytree Luxury Boarding Cattery Colchester";
+const description = "Boarding prices at Hollytree Cattery in Colchester. Transparent pricing for your cat's luxury stay in Essex.";
+---
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+</head>
+<body>
+
+<!-- Preview Banner -->
+<div style="background:#B45309;color:white;padding:10px 16px;text-align:center;font-size:14px;position:sticky;top:0;z-index:50"><div style="max-width:56rem;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap"><span>Preview redesign for <strong>Hollytree Cattery</strong></span><a href="https://biscuitweb.co.uk/activate?id=P2451&amp;name=Hollytree%20Cattery" style="display:inline-flex;align-items:center;padding:4px 16px;background:white;color:#B45309;font-weight:700;font-size:12px;border-radius:9999px;text-decoration:none">Like it? Just £20/month</a></div></div>
+
+<!-- Navigation -->
+<nav class="bg-[var(--color-brand-accent)] text-white">
+  <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+    <a href="/P2451/" class="font-display font-800 text-xl text-white no-underline">
+      🐱 Hollytree Cattery
+    </a>
+    <ul class="hidden md:flex items-center gap-6 list-none m-0 p-0">
+      <li><a href="/P2451/" class="text-white hover:text-[var(--color-accent-light)] text-sm font-semibold no-underline transition-colors">Home</a></li>
+      <li><a href="/P2451/hollytreeourcattery-html" class="text-white hover:text-[var(--color-accent-light)] text-sm font-semibold no-underline transition-colors">Our Cattery</a></li>
+      <li><a href="/P2451/hollytreeopeningtimes-html" class="text-white hover:text-[var(--color-accent-light)] text-sm font-semibold no-underline transition-colors">Opening Times</a></li>
+      <li><a href="/P2451/hollytreecathealth-html" class="text-white hover:text-[var(--color-accent-light)] text-sm font-semibold no-underline transition-colors">Cat Health</a></li>
+      <li><a href="/P2451/hollytreecatteryprices-html" class="text-white text-sm font-semibold no-underline border-b-2 border-white pb-0.5">Prices</a></li>
+      <li><a href="/P2451/hollytreecontactus-html" class="bg-white text-[var(--color-brand-accent)] px-4 py-2 rounded-full text-sm font-700 no-underline hover:bg-[var(--color-accent-light)] transition-colors">Contact Us</a></li>
+    </ul>
+    <button id="menu-toggle" class="md:hidden flex flex-col gap-1.5 p-2" aria-label="Open menu" aria-expanded="false">
+      <span class="block w-6 h-0.5 bg-white"></span>
+      <span class="block w-6 h-0.5 bg-white"></span>
+      <span class="block w-6 h-0.5 bg-white"></span>
+    </button>
+  </div>
+  <div id="mobile-menu" class="hidden md:hidden bg-[var(--color-brand-accent-deep)] px-4 pb-4">
+    <ul class="list-none m-0 p-0 flex flex-col gap-3 pt-3">
+      <li><a href="/P2451/" class="text-white font-semibold no-underline block py-1">Home</a></li>
+      <li><a href="/P2451/hollytreeourcattery-html" class="text-white font-semibold no-underline block py-1">Our Cattery</a></li>
+      <li><a href="/P2451/hollytreeopeningtimes-html" class="text-white font-semibold no-underline block py-1">Opening Times</a></li>
+      <li><a href="/P2451/hollytreecathealth-html" class="text-white font-semibold no-underline block py-1">Cat Health</a></li>
+      <li><a href="/P2451/hollytreecatteryprices-html" class="text-white font-semibold no-underline block py-1">Prices</a></li>
+      <li><a href="/P2451/hollytreecontactus-html" class="text-white font-semibold no-underline block py-1">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Page Hero -->
+<section class="relative h-72 md:h-96 flex items-end overflow-hidden">
+  <img
+    src="/P2451/images/extended-pagefees-v3-01.jpg"
+    alt="Pricing at Hollytree Cattery Colchester"
+    class="absolute inset-0 w-full h-full object-cover"
+    fetchpriority="high"
+    width="1200"
+    height="1149"
+  />
+  <div class="absolute inset-0 bg-black/70"></div>
+  <div class="relative z-10 max-w-6xl mx-auto px-4 py-10 text-white w-full">
+    <div class="inline-flex items-center gap-2 bg-white/20 border border-white/30 rounded-full px-4 py-1.5 text-sm font-semibold mb-3">
+      📍 Colchester, Essex
+    </div>
+    <h1 class="text-3xl md:text-5xl font-800 text-white">Our Prices</h1>
+  </div>
+</section>
+
+<!-- Intro -->
+<section class="py-12 bg-[var(--color-brand-bg)]">
+  <div class="max-w-3xl mx-auto px-4 text-center">
+    <h2 class="text-2xl md:text-3xl font-800 text-[var(--color-ink)] mb-4">Straightforward, Transparent Pricing</h2>
+    <p class="text-base text-[var(--color-ink-soft)] leading-relaxed">
+      Our fees cover full daily care for your cat. For the latest prices, please get in touch directly, as our rates are updated from time to time.
+    </p>
+  </div>
+</section>
+
+<!-- Pricing Cards -->
+<section class="py-12 bg-[var(--color-cream)]">
+  <div class="max-w-4xl mx-auto px-4">
+    <div class="grid md:grid-cols-2 gap-6 mb-8">
+      <!-- Single cat -->
+      <div class="bg-white rounded-2xl p-8 shadow-sm border-2 border-[var(--color-border)]">
+        <div class="text-4xl mb-4">🐱</div>
+        <h3 class="text-xl font-800 text-[var(--color-ink)] mb-2">Single Cat</h3>
+        <p class="text-[var(--color-ink-soft)] text-sm mb-6 leading-relaxed">A private, individually heated chalet for one cat, with full daily care and attention.</p>
+        <div class="text-[var(--color-ink-soft)] text-sm font-600">Contact us for current rates</div>
+        <a href="/P2451/hollytreecontactus-html" class="mt-4 inline-flex items-center justify-center w-full px-6 py-3 bg-[var(--color-brand-accent)] text-white font-700 rounded-full no-underline hover:bg-[var(--color-brand-accent-deep)] transition-colors text-sm">
+          Enquire Now
+        </a>
+      </div>
+      <!-- Two cats -->
+      <div class="bg-[var(--color-brand-accent)] rounded-2xl p-8 shadow-sm text-white">
+        <div class="text-4xl mb-4">🐱🐱</div>
+        <h3 class="text-xl font-800 text-white mb-2">Two Cats (Same Family)</h3>
+        <p class="text-white/80 text-sm mb-6 leading-relaxed">Two cats from the same household can share a chalet, keeping them together and comfortable.</p>
+        <div class="text-white/80 text-sm font-600">Contact us for current rates</div>
+        <a href="/P2451/hollytreecontactus-html" class="mt-4 inline-flex items-center justify-center w-full px-6 py-3 bg-white text-[var(--color-brand-accent)] font-700 rounded-full no-underline hover:bg-[var(--color-accent-light)] transition-colors text-sm">
+          Enquire Now
+        </a>
+      </div>
+    </div>
+
+    <!-- What's included -->
+    <div class="bg-white rounded-2xl p-8 shadow-sm">
+      <h3 class="text-xl font-800 text-[var(--color-ink)] mb-6 text-center">What's Included in Every Stay</h3>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div class="flex items-start gap-3 text-sm text-[var(--color-ink-soft)]">
+          <span class="text-green-600 font-800 mt-0.5">✓</span>
+          <span>Private, individually heated chalet</span>
+        </div>
+        <div class="flex items-start gap-3 text-sm text-[var(--color-ink-soft)]">
+          <span class="text-green-600 font-800 mt-0.5">✓</span>
+          <span>Access to secure outdoor run</span>
+        </div>
+        <div class="flex items-start gap-3 text-sm text-[var(--color-ink-soft)]">
+          <span class="text-green-600 font-800 mt-0.5">✓</span>
+          <span>Daily feeding with your cat's own food</span>
+        </div>
+        <div class="flex items-start gap-3 text-sm text-[var(--color-ink-soft)]">
+          <span class="text-green-600 font-800 mt-0.5">✓</span>
+          <span>Fresh water always available</span>
+        </div>
+        <div class="flex items-start gap-3 text-sm text-[var(--color-ink-soft)]">
+          <span class="text-green-600 font-800 mt-0.5">✓</span>
+          <span>Daily welfare checks and attention</span>
+        </div>
+        <div class="flex items-start gap-3 text-sm text-[var(--color-ink-soft)]">
+          <span class="text-green-600 font-800 mt-0.5">✓</span>
+          <span>Medication administration (if required)</span>
+        </div>
+        <div class="flex items-start gap-3 text-sm text-[var(--color-ink-soft)]">
+          <span class="text-green-600 font-800 mt-0.5">✓</span>
+          <span>Litter tray cleaning and fresh litter daily</span>
+        </div>
+        <div class="flex items-start gap-3 text-sm text-[var(--color-ink-soft)]">
+          <span class="text-green-600 font-800 mt-0.5">✓</span>
+          <span>24-hour security and fully enclosed site</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Image showcase -->
+<section class="py-12 bg-[var(--color-brand-bg)]">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="rounded-2xl overflow-hidden shadow-sm">
+        <img
+          src="/P2451/images/extended-pagefees-v3-01.jpg"
+          alt="Hollytree Cattery fees information"
+          class="w-full h-64 object-cover"
+          loading="lazy"
+          width="1200"
+          height="1149"
+        />
+      </div>
+      <div class="rounded-2xl overflow-hidden shadow-sm">
+        <img
+          src="/P2451/images/extended-pagefees-02.jpg"
+          alt="Hollytree Cattery pricing details"
+          class="w-full h-64 object-cover"
+          loading="lazy"
+          width="564"
+          height="705"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Terms note -->
+<section class="py-12 bg-[var(--color-cream)]">
+  <div class="max-w-3xl mx-auto px-4">
+    <div class="bg-white rounded-2xl p-6 shadow-sm">
+      <h3 class="text-lg font-800 text-[var(--color-ink)] mb-4">Booking and Payment Information</h3>
+      <ul class="list-none m-0 p-0 flex flex-col gap-3 text-sm text-[var(--color-ink-soft)]">
+        <li class="flex items-start gap-3">
+          <span class="text-[var(--color-brand-accent)] font-800 mt-0.5">•</span>
+          <span>We recommend booking as early as possible, especially during school holidays and peak periods.</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="text-[var(--color-brand-accent)] font-800 mt-0.5">•</span>
+          <span>A deposit may be required to secure your booking during busy periods.</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="text-[var(--color-brand-accent)] font-800 mt-0.5">•</span>
+          <span>Fees are charged per night. The day of departure is not charged if your cat is collected before midday.</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="text-[var(--color-brand-accent)] font-800 mt-0.5">•</span>
+          <span>Full payment is due on or before collection. We accept cash and bank transfer.</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="text-[var(--color-brand-accent)] font-800 mt-0.5">•</span>
+          <span>Current vaccination certificates must be presented at drop-off. We cannot admit unvaccinated cats.</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-16 bg-[var(--color-brand-accent)] text-white text-center">
+  <div class="max-w-2xl mx-auto px-4">
+    <h2 class="text-3xl font-800 text-white mb-4">Ready to Book Your Cat's Stay?</h2>
+    <p class="text-white/90 mb-8">Get in touch and we'll confirm availability and current pricing for your dates.</p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="tel:+441206562338" class="inline-flex items-center justify-center gap-2 px-8 py-3 bg-white text-[var(--color-brand-accent)] font-700 rounded-full no-underline hover:bg-[var(--color-accent-light)] transition-colors">
+        📞 01206 562338
+      </a>
+      <a href="/P2451/hollytreecontactus-html" class="inline-flex items-center justify-center px-8 py-3 border-2 border-white text-white font-700 rounded-full no-underline hover:bg-white/10 transition-colors">
+        Send a Message
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-[var(--color-brand-accent-deep)] text-white py-12">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="grid md:grid-cols-3 gap-8 mb-8">
+      <div>
+        <h3 class="font-800 text-lg mb-4">Hollytree Cattery</h3>
+        <p class="text-white/80 text-sm leading-relaxed">Luxury boarding cattery in Colchester, serving Essex and Suffolk.</p>
+      </div>
+      <div>
+        <h3 class="font-800 text-lg mb-4">Pages</h3>
+        <ul class="list-none m-0 p-0 flex flex-col gap-2">
+          <li><a href="/P2451/" class="text-white/80 hover:text-white text-sm no-underline">Home</a></li>
+          <li><a href="/P2451/hollytreeourcattery-html" class="text-white/80 hover:text-white text-sm no-underline">Our Cattery</a></li>
+          <li><a href="/P2451/hollytreeopeningtimes-html" class="text-white/80 hover:text-white text-sm no-underline">Opening Times</a></li>
+          <li><a href="/P2451/hollytreecathealth-html" class="text-white/80 hover:text-white text-sm no-underline">Cat Health</a></li>
+          <li><a href="/P2451/hollytreecatteryprices-html" class="text-white/80 hover:text-white text-sm no-underline">Prices</a></li>
+          <li><a href="/P2451/hollytreecontactus-html" class="text-white/80 hover:text-white text-sm no-underline">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-800 text-lg mb-4">Contact</h3>
+        <ul class="list-none m-0 p-0 flex flex-col gap-2 text-sm text-white/80">
+          <li>21A Blackheath, Colchester</li>
+          <li><a href="tel:+441206562338" class="text-white/80 hover:text-white no-underline">01206 562338</a></li>
+          <li>Essex &amp; Suffolk</li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-white/20 pt-6 text-center text-white/60 text-sm">
+      &copy; {new Date().getFullYear()} Hollytree Cattery. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+  toggle?.addEventListener('click', () => {
+    const open = menu?.classList.toggle('hidden');
+    toggle.setAttribute('aria-expanded', String(!open));
+  });
+</script>
+
+</body>
+</html>

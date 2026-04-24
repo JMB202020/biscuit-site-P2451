@@ -1,0 +1,246 @@
+---
+import '../styles/site.css';
+const title = "Cat Health Requirements | Hollytree Luxury Boarding Cattery Colchester";
+const description = "Health requirements for boarding at Hollytree Cattery in Colchester. Vaccination and flea treatment requirements before your cat's stay.";
+---
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+</head>
+<body>
+
+<!-- Preview Banner -->
+<div style="background:#B45309;color:white;padding:10px 16px;text-align:center;font-size:14px;position:sticky;top:0;z-index:50"><div style="max-width:56rem;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap"><span>Preview redesign for <strong>Hollytree Cattery</strong></span><a href="https://biscuitweb.co.uk/activate?id=P2451&amp;name=Hollytree%20Cattery" style="display:inline-flex;align-items:center;padding:4px 16px;background:white;color:#B45309;font-weight:700;font-size:12px;border-radius:9999px;text-decoration:none">Like it? Just £20/month</a></div></div>
+
+<!-- Navigation -->
+<nav class="bg-[var(--color-brand-accent)] text-white">
+  <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+    <a href="/P2451/" class="font-display font-800 text-xl text-white no-underline">
+      🐱 Hollytree Cattery
+    </a>
+    <ul class="hidden md:flex items-center gap-6 list-none m-0 p-0">
+      <li><a href="/P2451/" class="text-white hover:text-[var(--color-accent-light)] text-sm font-semibold no-underline transition-colors">Home</a></li>
+      <li><a href="/P2451/hollytreeourcattery-html" class="text-white hover:text-[var(--color-accent-light)] text-sm font-semibold no-underline transition-colors">Our Cattery</a></li>
+      <li><a href="/P2451/hollytreeopeningtimes-html" class="text-white hover:text-[var(--color-accent-light)] text-sm font-semibold no-underline transition-colors">Opening Times</a></li>
+      <li><a href="/P2451/hollytreecathealth-html" class="text-white text-sm font-semibold no-underline border-b-2 border-white pb-0.5">Cat Health</a></li>
+      <li><a href="/P2451/hollytreecatteryprices-html" class="text-white hover:text-[var(--color-accent-light)] text-sm font-semibold no-underline transition-colors">Prices</a></li>
+      <li><a href="/P2451/hollytreecontactus-html" class="bg-white text-[var(--color-brand-accent)] px-4 py-2 rounded-full text-sm font-700 no-underline hover:bg-[var(--color-accent-light)] transition-colors">Contact Us</a></li>
+    </ul>
+    <button id="menu-toggle" class="md:hidden flex flex-col gap-1.5 p-2" aria-label="Open menu" aria-expanded="false">
+      <span class="block w-6 h-0.5 bg-white"></span>
+      <span class="block w-6 h-0.5 bg-white"></span>
+      <span class="block w-6 h-0.5 bg-white"></span>
+    </button>
+  </div>
+  <div id="mobile-menu" class="hidden md:hidden bg-[var(--color-brand-accent-deep)] px-4 pb-4">
+    <ul class="list-none m-0 p-0 flex flex-col gap-3 pt-3">
+      <li><a href="/P2451/" class="text-white font-semibold no-underline block py-1">Home</a></li>
+      <li><a href="/P2451/hollytreeourcattery-html" class="text-white font-semibold no-underline block py-1">Our Cattery</a></li>
+      <li><a href="/P2451/hollytreeopeningtimes-html" class="text-white font-semibold no-underline block py-1">Opening Times</a></li>
+      <li><a href="/P2451/hollytreecathealth-html" class="text-white font-semibold no-underline block py-1">Cat Health</a></li>
+      <li><a href="/P2451/hollytreecatteryprices-html" class="text-white font-semibold no-underline block py-1">Prices</a></li>
+      <li><a href="/P2451/hollytreecontactus-html" class="text-white font-semibold no-underline block py-1">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Page Hero -->
+<section class="relative h-72 md:h-96 flex items-end overflow-hidden">
+  <img
+    src="/P2451/images/health-requirements-01-01.jpg"
+    alt="Cat health requirements at Hollytree Cattery"
+    class="absolute inset-0 w-full h-full object-cover"
+    fetchpriority="high"
+    width="1200"
+    height="1149"
+  />
+  <div class="absolute inset-0 bg-black/70"></div>
+  <div class="relative z-10 max-w-6xl mx-auto px-4 py-10 text-white w-full">
+    <div class="inline-flex items-center gap-2 bg-white/20 border border-white/30 rounded-full px-4 py-1.5 text-sm font-semibold mb-3">
+      📍 Colchester, Essex
+    </div>
+    <h1 class="text-3xl md:text-5xl font-800 text-white">Cat Health Requirements</h1>
+  </div>
+</section>
+
+<!-- Intro -->
+<section class="py-16 bg-[var(--color-brand-bg)]">
+  <div class="max-w-3xl mx-auto px-4 text-center">
+    <h2 class="text-2xl md:text-3xl font-800 text-[var(--color-ink)] mb-6">Keeping All Our Guests Safe and Healthy</h2>
+    <p class="text-base text-[var(--color-ink-soft)] leading-relaxed mb-4">
+      To protect the health of all the cats in our care, we have a strict policy on vaccinations and general health. These requirements are in place for every cat's benefit, including yours.
+    </p>
+    <p class="text-base text-[var(--color-ink-soft)] leading-relaxed">
+      We are unable to accept cats that do not meet these requirements. If you are unsure whether your cat is up to date, please check with your vet before booking.
+    </p>
+  </div>
+</section>
+
+<!-- Requirements -->
+<section class="py-16 bg-[var(--color-cream)]">
+  <div class="max-w-4xl mx-auto px-4">
+    <h2 class="text-3xl font-800 text-[var(--color-ink)] text-center mb-12">Health Requirements</h2>
+
+    <!-- Vaccinations -->
+    <div class="bg-white rounded-2xl p-8 shadow-sm mb-6">
+      <div class="flex items-start gap-4">
+        <div class="text-4xl shrink-0">💉</div>
+        <div>
+          <h3 class="text-xl font-800 text-[var(--color-ink)] mb-3">Current Vaccinations (Essential)</h3>
+          <p class="text-[var(--color-ink-soft)] text-sm leading-relaxed mb-4">
+            All cats must be vaccinated against feline infectious enteritis (panleukopaenia) and cat flu (feline herpesvirus and calicivirus). This is a non-negotiable requirement and applies to all cats boarding with us.
+          </p>
+          <div class="bg-[var(--color-cream)] rounded-xl p-4 text-sm text-[var(--color-ink-soft)]">
+            <strong class="text-[var(--color-ink)]">What to bring:</strong> Your cat's current vaccination certificate, showing up-to-date boosters. Vaccinations must have been given at least two weeks before the start of your cat's stay.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Flea treatment -->
+    <div class="bg-white rounded-2xl p-8 shadow-sm mb-6">
+      <div class="flex items-start gap-4">
+        <div class="text-4xl shrink-0">🐾</div>
+        <div>
+          <h3 class="text-xl font-800 text-[var(--color-ink)] mb-3">Flea Treatment</h3>
+          <p class="text-[var(--color-ink-soft)] text-sm leading-relaxed mb-4">
+            All cats must have received a veterinary-approved flea treatment within the month prior to boarding. This protects every cat in our care and maintains the high standards of our facility.
+          </p>
+          <div class="bg-[var(--color-cream)] rounded-xl p-4 text-sm text-[var(--color-ink-soft)]">
+            <strong class="text-[var(--color-ink)]">Please note:</strong> If we discover evidence of fleas on arrival, we reserve the right to treat your cat and charge accordingly, or to decline boarding.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Worming -->
+    <div class="bg-white rounded-2xl p-8 shadow-sm mb-6">
+      <div class="flex items-start gap-4">
+        <div class="text-4xl shrink-0">✅</div>
+        <div>
+          <h3 class="text-xl font-800 text-[var(--color-ink)] mb-3">General Health</h3>
+          <p class="text-[var(--color-ink-soft)] text-sm leading-relaxed">
+            Your cat should be in good general health when they arrive. We are unable to accept cats showing signs of illness, infection or injury. If your cat becomes unwell during their stay, we will contact you immediately and seek veterinary advice if necessary.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Medication -->
+    <div class="bg-white rounded-2xl p-8 shadow-sm mb-6">
+      <div class="flex items-start gap-4">
+        <div class="text-4xl shrink-0">💊</div>
+        <div>
+          <h3 class="text-xl font-800 text-[var(--color-ink)] mb-3">Prescribed Medication</h3>
+          <p class="text-[var(--color-ink-soft)] text-sm leading-relaxed mb-4">
+            We are happy to administer prescribed medication to cats in our care. Please bring medication clearly labelled with your cat's name, dosage and instructions. Let us know about any ongoing conditions when you book.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Neutering -->
+    <div class="bg-white rounded-2xl p-8 shadow-sm">
+      <div class="flex items-start gap-4">
+        <div class="text-4xl shrink-0">ℹ️</div>
+        <div>
+          <h3 class="text-xl font-800 text-[var(--color-ink)] mb-3">Neutered Cats</h3>
+          <p class="text-[var(--color-ink-soft)] text-sm leading-relaxed">
+            We strongly recommend that all cats be neutered before boarding. Entire (unneutered) cats can be more stressed in a cattery environment and may affect neighbouring cats. Please contact us to discuss if your cat is entire.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="py-16 bg-[var(--color-brand-bg)]">
+  <div class="max-w-3xl mx-auto px-4">
+    <h2 class="text-3xl font-800 text-[var(--color-ink)] text-center mb-10">Common Questions</h2>
+    <div class="flex flex-col gap-4">
+      <details class="bg-white rounded-xl p-5 shadow-sm">
+        <summary class="font-700 text-[var(--color-ink)] cursor-pointer">My cat's vaccinations have lapsed. Can I still book?</summary>
+        <p class="text-[var(--color-ink-soft)] text-sm mt-3 leading-relaxed">We cannot accept cats without current vaccinations. Please visit your vet and allow at least two weeks after vaccination before boarding with us.</p>
+      </details>
+      <details class="bg-white rounded-xl p-5 shadow-sm">
+        <summary class="font-700 text-[var(--color-ink)] cursor-pointer">Do I need to bring the vaccination certificate every time?</summary>
+        <p class="text-[var(--color-ink-soft)] text-sm mt-3 leading-relaxed">Yes, please bring the physical certificate on every visit so we can verify your cat's vaccination status is current.</p>
+      </details>
+      <details class="bg-white rounded-xl p-5 shadow-sm">
+        <summary class="font-700 text-[var(--color-ink)] cursor-pointer">What if my cat becomes unwell while boarding?</summary>
+        <p class="text-[var(--color-ink-soft)] text-sm mt-3 leading-relaxed">We will contact you immediately. In an emergency, we will seek veterinary advice without delay. We take the welfare of every cat very seriously.</p>
+      </details>
+      <details class="bg-white rounded-xl p-5 shadow-sm">
+        <summary class="font-700 text-[var(--color-ink)] cursor-pointer">Can older or senior cats board with you?</summary>
+        <p class="text-[var(--color-ink-soft)] text-sm mt-3 leading-relaxed">Absolutely. We cater for cats of all ages. For senior cats or those with health conditions, please let us know in advance so we can make any necessary adjustments to their care.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-16 bg-[var(--color-brand-accent)] text-white text-center">
+  <div class="max-w-2xl mx-auto px-4">
+    <h2 class="text-3xl font-800 text-white mb-4">Questions About Our Health Policy?</h2>
+    <p class="text-white/90 mb-8">We're always happy to chat things through. Give us a ring or drop us a message.</p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="tel:+441206562338" class="inline-flex items-center justify-center gap-2 px-8 py-3 bg-white text-[var(--color-brand-accent)] font-700 rounded-full no-underline hover:bg-[var(--color-accent-light)] transition-colors">
+        📞 01206 562338
+      </a>
+      <a href="/P2451/hollytreecontactus-html" class="inline-flex items-center justify-center px-8 py-3 border-2 border-white text-white font-700 rounded-full no-underline hover:bg-white/10 transition-colors">
+        Send a Message
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-[var(--color-brand-accent-deep)] text-white py-12">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="grid md:grid-cols-3 gap-8 mb-8">
+      <div>
+        <h3 class="font-800 text-lg mb-4">Hollytree Cattery</h3>
+        <p class="text-white/80 text-sm leading-relaxed">Luxury boarding cattery in Colchester, serving Essex and Suffolk.</p>
+      </div>
+      <div>
+        <h3 class="font-800 text-lg mb-4">Pages</h3>
+        <ul class="list-none m-0 p-0 flex flex-col gap-2">
+          <li><a href="/P2451/" class="text-white/80 hover:text-white text-sm no-underline">Home</a></li>
+          <li><a href="/P2451/hollytreeourcattery-html" class="text-white/80 hover:text-white text-sm no-underline">Our Cattery</a></li>
+          <li><a href="/P2451/hollytreeopeningtimes-html" class="text-white/80 hover:text-white text-sm no-underline">Opening Times</a></li>
+          <li><a href="/P2451/hollytreecathealth-html" class="text-white/80 hover:text-white text-sm no-underline">Cat Health</a></li>
+          <li><a href="/P2451/hollytreecatteryprices-html" class="text-white/80 hover:text-white text-sm no-underline">Prices</a></li>
+          <li><a href="/P2451/hollytreecontactus-html" class="text-white/80 hover:text-white text-sm no-underline">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-800 text-lg mb-4">Contact</h3>
+        <ul class="list-none m-0 p-0 flex flex-col gap-2 text-sm text-white/80">
+          <li>21A Blackheath, Colchester</li>
+          <li><a href="tel:+441206562338" class="text-white/80 hover:text-white no-underline">01206 562338</a></li>
+          <li>Essex &amp; Suffolk</li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-white/20 pt-6 text-center text-white/60 text-sm">
+      &copy; {new Date().getFullYear()} Hollytree Cattery. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+  toggle?.addEventListener('click', () => {
+    const open = menu?.classList.toggle('hidden');
+    toggle.setAttribute('aria-expanded', String(!open));
+  });
+</script>
+
+</body>
+</html>

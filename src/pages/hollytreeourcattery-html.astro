@@ -1,0 +1,216 @@
+---
+import '../styles/site.css';
+const title = "Our Cattery | Hollytree Luxury Boarding Cattery Colchester";
+const description = "See the facilities at Hollytree Cattery in Colchester. Individual heated chalets, outdoor runs, and dedicated daily care for your cat.";
+---
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+</head>
+<body>
+
+<!-- Preview Banner -->
+<div style="background:#B45309;color:white;padding:10px 16px;text-align:center;font-size:14px;position:sticky;top:0;z-index:50"><div style="max-width:56rem;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap"><span>Preview redesign for <strong>Hollytree Cattery</strong></span><a href="https://biscuitweb.co.uk/activate?id=P2451&amp;name=Hollytree%20Cattery" style="display:inline-flex;align-items:center;padding:4px 16px;background:white;color:#B45309;font-weight:700;font-size:12px;border-radius:9999px;text-decoration:none">Like it? Just £20/month</a></div></div>
+
+<!-- Navigation -->
+<nav class="bg-[var(--color-brand-accent)] text-white">
+  <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+    <a href="/P2451/" class="font-display font-800 text-xl text-white no-underline">
+      🐱 Hollytree Cattery
+    </a>
+    <ul class="hidden md:flex items-center gap-6 list-none m-0 p-0">
+      <li><a href="/P2451/" class="text-white hover:text-[var(--color-accent-light)] text-sm font-semibold no-underline transition-colors">Home</a></li>
+      <li><a href="/P2451/hollytreeourcattery-html" class="text-white text-sm font-semibold no-underline border-b-2 border-white pb-0.5">Our Cattery</a></li>
+      <li><a href="/P2451/hollytreeopeningtimes-html" class="text-white hover:text-[var(--color-accent-light)] text-sm font-semibold no-underline transition-colors">Opening Times</a></li>
+      <li><a href="/P2451/hollytreecathealth-html" class="text-white hover:text-[var(--color-accent-light)] text-sm font-semibold no-underline transition-colors">Cat Health</a></li>
+      <li><a href="/P2451/hollytreecatteryprices-html" class="text-white hover:text-[var(--color-accent-light)] text-sm font-semibold no-underline transition-colors">Prices</a></li>
+      <li><a href="/P2451/hollytreecontactus-html" class="bg-white text-[var(--color-brand-accent)] px-4 py-2 rounded-full text-sm font-700 no-underline hover:bg-[var(--color-accent-light)] transition-colors">Contact Us</a></li>
+    </ul>
+    <button id="menu-toggle" class="md:hidden flex flex-col gap-1.5 p-2" aria-label="Open menu" aria-expanded="false">
+      <span class="block w-6 h-0.5 bg-white"></span>
+      <span class="block w-6 h-0.5 bg-white"></span>
+      <span class="block w-6 h-0.5 bg-white"></span>
+    </button>
+  </div>
+  <div id="mobile-menu" class="hidden md:hidden bg-[var(--color-brand-accent-deep)] px-4 pb-4">
+    <ul class="list-none m-0 p-0 flex flex-col gap-3 pt-3">
+      <li><a href="/P2451/" class="text-white font-semibold no-underline block py-1">Home</a></li>
+      <li><a href="/P2451/hollytreeourcattery-html" class="text-white font-semibold no-underline block py-1">Our Cattery</a></li>
+      <li><a href="/P2451/hollytreeopeningtimes-html" class="text-white font-semibold no-underline block py-1">Opening Times</a></li>
+      <li><a href="/P2451/hollytreecathealth-html" class="text-white font-semibold no-underline block py-1">Cat Health</a></li>
+      <li><a href="/P2451/hollytreecatteryprices-html" class="text-white font-semibold no-underline block py-1">Prices</a></li>
+      <li><a href="/P2451/hollytreecontactus-html" class="text-white font-semibold no-underline block py-1">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Page Hero -->
+<section class="relative h-72 md:h-96 flex items-end overflow-hidden">
+  <img
+    src="/P2451/images/extended-page-our-cattery-v2-01.jpg"
+    alt="Inside Hollytree Cattery, Colchester"
+    class="absolute inset-0 w-full h-full object-cover"
+    fetchpriority="high"
+    width="1200"
+    height="1149"
+  />
+  <div class="absolute inset-0 bg-black/70"></div>
+  <div class="relative z-10 max-w-6xl mx-auto px-4 py-10 text-white w-full">
+    <div class="inline-flex items-center gap-2 bg-white/20 border border-white/30 rounded-full px-4 py-1.5 text-sm font-semibold mb-3">
+      📍 Colchester, Essex
+    </div>
+    <h1 class="text-3xl md:text-5xl font-800 text-white">Our Cattery</h1>
+  </div>
+</section>
+
+<!-- Intro -->
+<section class="py-16 bg-[var(--color-brand-bg)]">
+  <div class="max-w-4xl mx-auto px-4 text-center">
+    <h2 class="text-2xl md:text-3xl font-800 text-[var(--color-ink)] mb-6">A Warm, Safe Space Your Cat Will Love</h2>
+    <p class="text-base text-[var(--color-ink-soft)] leading-relaxed mb-4">
+      At Hollytree Cattery in Colchester, we've designed everything with your cat's comfort in mind. Our facility offers individual, heated chalets with access to outdoor runs, providing the perfect balance of privacy, fresh air and security.
+    </p>
+    <p class="text-base text-[var(--color-ink-soft)] leading-relaxed">
+      Whether your cat is shy and retiring or sociable and curious, our experienced team will adapt to their needs and ensure they're happy and settled throughout their stay.
+    </p>
+  </div>
+</section>
+
+<!-- Facilities Detail -->
+<section class="py-16 bg-[var(--color-cream)]">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-800 text-[var(--color-ink)] text-center mb-12">Our Facilities</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="bg-white rounded-2xl p-8 shadow-sm">
+        <div class="text-4xl mb-4">🏠</div>
+        <h3 class="text-xl font-800 text-[var(--color-ink)] mb-3">Individual Chalets</h3>
+        <p class="text-[var(--color-ink-soft)] text-sm leading-relaxed">
+          Each cat or feline family group has their own private chalet. Our units are spacious, individually heated, and designed to be a calming retreat for your cat. No shared spaces with other cats means a stress-free stay.
+        </p>
+      </div>
+      <div class="bg-white rounded-2xl p-8 shadow-sm">
+        <div class="text-4xl mb-4">🌿</div>
+        <h3 class="text-xl font-800 text-[var(--color-ink)] mb-3">Outdoor Runs</h3>
+        <p class="text-[var(--color-ink-soft)] text-sm leading-relaxed">
+          Each chalet has its own secure outdoor run, allowing your cat to enjoy fresh air and a change of scenery whenever they like. The runs are fully enclosed so there's no chance of escape or contact with neighbouring cats.
+        </p>
+      </div>
+      <div class="bg-white rounded-2xl p-8 shadow-sm">
+        <div class="text-4xl mb-4">🌡️</div>
+        <h3 class="text-xl font-800 text-[var(--color-ink)] mb-3">Heated Throughout</h3>
+        <p class="text-[var(--color-ink-soft)] text-sm leading-relaxed">
+          We maintain a comfortable temperature in all our chalets year-round. Your cat will always be warm and snug, whatever the weather outside.
+        </p>
+      </div>
+      <div class="bg-white rounded-2xl p-8 shadow-sm">
+        <div class="text-4xl mb-4">🔒</div>
+        <h3 class="text-xl font-800 text-[var(--color-ink)] mb-3">Fully Secure</h3>
+        <p class="text-[var(--color-ink-soft)] text-sm leading-relaxed">
+          Our entire site is purpose-built and fully enclosed. Double-entry gates and secure locks mean your cat can never wander off, and strangers cannot enter without our knowledge.
+        </p>
+      </div>
+      <div class="bg-white rounded-2xl p-8 shadow-sm">
+        <div class="text-4xl mb-4">🍽️</div>
+        <h3 class="text-xl font-800 text-[var(--color-ink)] mb-3">Food &amp; Feeding</h3>
+        <p class="text-[var(--color-ink-soft)] text-sm leading-relaxed">
+          We feed your cat their own food from home, keeping to their usual routine. Just bring along enough for their stay and we'll handle the rest. Fresh water is always available.
+        </p>
+      </div>
+      <div class="bg-white rounded-2xl p-8 shadow-sm">
+        <div class="text-4xl mb-4">❤️</div>
+        <h3 class="text-xl font-800 text-[var(--color-ink)] mb-3">Daily TLC</h3>
+        <p class="text-[var(--color-ink-soft)] text-sm leading-relaxed">
+          Our team spend time with every guest each day, providing playtime, fuss and companionship. We monitor health and behaviour, and will contact you immediately if we have any concerns.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Daily Routine -->
+<section class="py-16 bg-[var(--color-brand-bg)]">
+  <div class="max-w-4xl mx-auto px-4">
+    <h2 class="text-3xl font-800 text-[var(--color-ink)] text-center mb-4">A Typical Day at Hollytree</h2>
+    <p class="text-center text-[var(--color-ink-soft)] mb-10">We keep your cat's day consistent and calm.</p>
+    <div class="flex flex-col gap-4">
+      <div class="flex items-start gap-4 bg-white rounded-xl p-5 shadow-sm">
+        <div class="w-16 shrink-0 text-center font-800 text-[var(--color-brand-accent)] text-sm">Morning</div>
+        <div class="text-[var(--color-ink-soft)] text-sm leading-relaxed">Chalets are checked and cleaned. Breakfast is served. Each cat gets a morning health check and some individual attention.</div>
+      </div>
+      <div class="flex items-start gap-4 bg-white rounded-xl p-5 shadow-sm">
+        <div class="w-16 shrink-0 text-center font-800 text-[var(--color-brand-accent)] text-sm">Midday</div>
+        <div class="text-[var(--color-ink-soft)] text-sm leading-relaxed">Playtime and fuss for cats who enjoy company. Outdoor run access is available for those who want fresh air. Water bowls are topped up.</div>
+      </div>
+      <div class="flex items-start gap-4 bg-white rounded-xl p-5 shadow-sm">
+        <div class="w-16 shrink-0 text-center font-800 text-[var(--color-brand-accent)] text-sm">Evening</div>
+        <div class="text-[var(--color-ink-soft)] text-sm leading-relaxed">Evening meal is served. Final welfare checks are carried out. Heating is confirmed and cats are settled in for the night.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-16 bg-[var(--color-brand-accent)] text-white text-center">
+  <div class="max-w-2xl mx-auto px-4">
+    <h2 class="text-3xl font-800 text-white mb-4">Interested in Booking?</h2>
+    <p class="text-white/90 mb-8">Check our prices or get in touch to discuss availability.</p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="/P2451/hollytreecatteryprices-html" class="inline-flex items-center justify-center px-8 py-3 bg-white text-[var(--color-brand-accent)] font-700 rounded-full no-underline hover:bg-[var(--color-accent-light)] transition-colors">
+        View Prices
+      </a>
+      <a href="/P2451/hollytreecontactus-html" class="inline-flex items-center justify-center px-8 py-3 border-2 border-white text-white font-700 rounded-full no-underline hover:bg-white/10 transition-colors">
+        Contact Us
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-[var(--color-brand-accent-deep)] text-white py-12">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="grid md:grid-cols-3 gap-8 mb-8">
+      <div>
+        <h3 class="font-800 text-lg mb-4">Hollytree Cattery</h3>
+        <p class="text-white/80 text-sm leading-relaxed">Luxury boarding cattery in Colchester, serving Essex and Suffolk.</p>
+      </div>
+      <div>
+        <h3 class="font-800 text-lg mb-4">Pages</h3>
+        <ul class="list-none m-0 p-0 flex flex-col gap-2">
+          <li><a href="/P2451/" class="text-white/80 hover:text-white text-sm no-underline">Home</a></li>
+          <li><a href="/P2451/hollytreeourcattery-html" class="text-white/80 hover:text-white text-sm no-underline">Our Cattery</a></li>
+          <li><a href="/P2451/hollytreeopeningtimes-html" class="text-white/80 hover:text-white text-sm no-underline">Opening Times</a></li>
+          <li><a href="/P2451/hollytreecathealth-html" class="text-white/80 hover:text-white text-sm no-underline">Cat Health</a></li>
+          <li><a href="/P2451/hollytreecatteryprices-html" class="text-white/80 hover:text-white text-sm no-underline">Prices</a></li>
+          <li><a href="/P2451/hollytreecontactus-html" class="text-white/80 hover:text-white text-sm no-underline">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-800 text-lg mb-4">Contact</h3>
+        <ul class="list-none m-0 p-0 flex flex-col gap-2 text-sm text-white/80">
+          <li>21A Blackheath, Colchester</li>
+          <li><a href="tel:+441206562338" class="text-white/80 hover:text-white no-underline">01206 562338</a></li>
+          <li>Essex &amp; Suffolk</li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-white/20 pt-6 text-center text-white/60 text-sm">
+      &copy; {new Date().getFullYear()} Hollytree Cattery. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+  toggle?.addEventListener('click', () => {
+    const open = menu?.classList.toggle('hidden');
+    toggle.setAttribute('aria-expanded', String(!open));
+  });
+</script>
+
+</body>
+</html>

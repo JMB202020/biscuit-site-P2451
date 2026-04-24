@@ -1,0 +1,212 @@
+---
+import '../styles/site.css';
+const title = "Opening Times | Hollytree Luxury Boarding Cattery Colchester";
+const description = "Opening times for Hollytree Cattery in Colchester. Find out when you can drop off and collect your cat.";
+---
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+</head>
+<body>
+
+<!-- Preview Banner -->
+<div style="background:#B45309;color:white;padding:10px 16px;text-align:center;font-size:14px;position:sticky;top:0;z-index:50"><div style="max-width:56rem;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap"><span>Preview redesign for <strong>Hollytree Cattery</strong></span><a href="https://biscuitweb.co.uk/activate?id=P2451&amp;name=Hollytree%20Cattery" style="display:inline-flex;align-items:center;padding:4px 16px;background:white;color:#B45309;font-weight:700;font-size:12px;border-radius:9999px;text-decoration:none">Like it? Just £20/month</a></div></div>
+
+<!-- Navigation -->
+<nav class="bg-[var(--color-brand-accent)] text-white">
+  <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+    <a href="/P2451/" class="font-display font-800 text-xl text-white no-underline">
+      🐱 Hollytree Cattery
+    </a>
+    <ul class="hidden md:flex items-center gap-6 list-none m-0 p-0">
+      <li><a href="/P2451/" class="text-white hover:text-[var(--color-accent-light)] text-sm font-semibold no-underline transition-colors">Home</a></li>
+      <li><a href="/P2451/hollytreeourcattery-html" class="text-white hover:text-[var(--color-accent-light)] text-sm font-semibold no-underline transition-colors">Our Cattery</a></li>
+      <li><a href="/P2451/hollytreeopeningtimes-html" class="text-white text-sm font-semibold no-underline border-b-2 border-white pb-0.5">Opening Times</a></li>
+      <li><a href="/P2451/hollytreecathealth-html" class="text-white hover:text-[var(--color-accent-light)] text-sm font-semibold no-underline transition-colors">Cat Health</a></li>
+      <li><a href="/P2451/hollytreecatteryprices-html" class="text-white hover:text-[var(--color-accent-light)] text-sm font-semibold no-underline transition-colors">Prices</a></li>
+      <li><a href="/P2451/hollytreecontactus-html" class="bg-white text-[var(--color-brand-accent)] px-4 py-2 rounded-full text-sm font-700 no-underline hover:bg-[var(--color-accent-light)] transition-colors">Contact Us</a></li>
+    </ul>
+    <button id="menu-toggle" class="md:hidden flex flex-col gap-1.5 p-2" aria-label="Open menu" aria-expanded="false">
+      <span class="block w-6 h-0.5 bg-white"></span>
+      <span class="block w-6 h-0.5 bg-white"></span>
+      <span class="block w-6 h-0.5 bg-white"></span>
+    </button>
+  </div>
+  <div id="mobile-menu" class="hidden md:hidden bg-[var(--color-brand-accent-deep)] px-4 pb-4">
+    <ul class="list-none m-0 p-0 flex flex-col gap-3 pt-3">
+      <li><a href="/P2451/" class="text-white font-semibold no-underline block py-1">Home</a></li>
+      <li><a href="/P2451/hollytreeourcattery-html" class="text-white font-semibold no-underline block py-1">Our Cattery</a></li>
+      <li><a href="/P2451/hollytreeopeningtimes-html" class="text-white font-semibold no-underline block py-1">Opening Times</a></li>
+      <li><a href="/P2451/hollytreecathealth-html" class="text-white font-semibold no-underline block py-1">Cat Health</a></li>
+      <li><a href="/P2451/hollytreecatteryprices-html" class="text-white font-semibold no-underline block py-1">Prices</a></li>
+      <li><a href="/P2451/hollytreecontactus-html" class="text-white font-semibold no-underline block py-1">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Page Hero -->
+<section class="relative h-72 md:h-96 flex items-end overflow-hidden">
+  <img
+    src="/P2451/images/extended-page-opening-times-01-01.jpg"
+    alt="Hollytree Cattery opening times"
+    class="absolute inset-0 w-full h-full object-cover"
+    fetchpriority="high"
+    width="1200"
+    height="1149"
+  />
+  <div class="absolute inset-0 bg-black/70"></div>
+  <div class="relative z-10 max-w-6xl mx-auto px-4 py-10 text-white w-full">
+    <div class="inline-flex items-center gap-2 bg-white/20 border border-white/30 rounded-full px-4 py-1.5 text-sm font-semibold mb-3">
+      📍 Colchester, Essex
+    </div>
+    <h1 class="text-3xl md:text-5xl font-800 text-white">Opening Times</h1>
+  </div>
+</section>
+
+<!-- Opening Times Content -->
+<section class="py-16 bg-[var(--color-brand-bg)]">
+  <div class="max-w-3xl mx-auto px-4">
+    <p class="text-center text-[var(--color-ink-soft)] mb-10 text-base leading-relaxed">
+      We operate set drop-off and collection times to allow us to give every cat the attention they deserve. Please contact us if you need to make special arrangements.
+    </p>
+
+    <!-- Opening hours table -->
+    <div class="bg-white rounded-2xl shadow-sm overflow-hidden mb-8">
+      <div class="bg-[var(--color-brand-accent)] px-6 py-4">
+        <h2 class="text-xl font-800 text-white">Drop-Off &amp; Collection Hours</h2>
+      </div>
+      <div class="divide-y divide-[var(--color-border)]">
+        <div class="flex justify-between items-center px-6 py-4">
+          <span class="font-600 text-[var(--color-ink)]">Monday</span>
+          <span class="text-[var(--color-ink-soft)] text-sm">9:00am &ndash; 11:00am &nbsp;|&nbsp; 4:00pm &ndash; 6:00pm</span>
+        </div>
+        <div class="flex justify-between items-center px-6 py-4">
+          <span class="font-600 text-[var(--color-ink)]">Tuesday</span>
+          <span class="text-[var(--color-ink-soft)] text-sm">9:00am &ndash; 11:00am &nbsp;|&nbsp; 4:00pm &ndash; 6:00pm</span>
+        </div>
+        <div class="flex justify-between items-center px-6 py-4">
+          <span class="font-600 text-[var(--color-ink)]">Wednesday</span>
+          <span class="text-[var(--color-ink-soft)] text-sm">9:00am &ndash; 11:00am &nbsp;|&nbsp; 4:00pm &ndash; 6:00pm</span>
+        </div>
+        <div class="flex justify-between items-center px-6 py-4">
+          <span class="font-600 text-[var(--color-ink)]">Thursday</span>
+          <span class="text-[var(--color-ink-soft)] text-sm">9:00am &ndash; 11:00am &nbsp;|&nbsp; 4:00pm &ndash; 6:00pm</span>
+        </div>
+        <div class="flex justify-between items-center px-6 py-4">
+          <span class="font-600 text-[var(--color-ink)]">Friday</span>
+          <span class="text-[var(--color-ink-soft)] text-sm">9:00am &ndash; 11:00am &nbsp;|&nbsp; 4:00pm &ndash; 6:00pm</span>
+        </div>
+        <div class="flex justify-between items-center px-6 py-4">
+          <span class="font-600 text-[var(--color-ink)]">Saturday</span>
+          <span class="text-[var(--color-ink-soft)] text-sm">9:00am &ndash; 11:00am &nbsp;|&nbsp; 4:00pm &ndash; 6:00pm</span>
+        </div>
+        <div class="flex justify-between items-center px-6 py-4">
+          <span class="font-600 text-[var(--color-ink)]">Sunday</span>
+          <span class="text-[var(--color-ink-soft)] text-sm">9:00am &ndash; 11:00am &nbsp;|&nbsp; 4:00pm &ndash; 6:00pm</span>
+        </div>
+        <div class="flex justify-between items-center px-6 py-4 bg-[var(--color-cream)]">
+          <span class="font-600 text-[var(--color-ink)]">Bank Holidays</span>
+          <span class="text-[var(--color-ink-soft)] text-sm">Please ring to confirm</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Important notes -->
+    <div class="bg-[var(--color-cream)] rounded-2xl p-6 mb-8">
+      <h3 class="text-lg font-800 text-[var(--color-ink)] mb-4">Please Note</h3>
+      <ul class="list-none m-0 p-0 flex flex-col gap-3">
+        <li class="flex items-start gap-3 text-sm text-[var(--color-ink-soft)]">
+          <span class="text-[var(--color-brand-accent)] font-800 mt-0.5">•</span>
+          <span>Drop-offs and collections must be within the times shown above. Please do not arrive outside these hours.</span>
+        </li>
+        <li class="flex items-start gap-3 text-sm text-[var(--color-ink-soft)]">
+          <span class="text-[var(--color-brand-accent)] font-800 mt-0.5">•</span>
+          <span>We ask that you bring your cat in a secure carrier at all times when visiting the cattery.</span>
+        </li>
+        <li class="flex items-start gap-3 text-sm text-[var(--color-ink-soft)]">
+          <span class="text-[var(--color-brand-accent)] font-800 mt-0.5">•</span>
+          <span>If you are running late for collection, please ring us on <a href="tel:+441206562338" class="text-[var(--color-brand-accent)] font-600 no-underline hover:underline">01206 562338</a> as soon as possible.</span>
+        </li>
+        <li class="flex items-start gap-3 text-sm text-[var(--color-ink-soft)]">
+          <span class="text-[var(--color-brand-accent)] font-800 mt-0.5">•</span>
+          <span>Charges may apply for late collections or extended stays beyond the agreed dates.</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Booking reminder -->
+    <div class="bg-[var(--color-brand-accent)] rounded-2xl p-6 text-white text-center">
+      <h3 class="text-lg font-800 text-white mb-3">Plan Ahead</h3>
+      <p class="text-white/90 text-sm mb-4">We recommend booking as early as possible, especially during school holidays, bank holidays and the summer season when we fill up quickly.</p>
+      <a href="/P2451/hollytreecontactus-html" class="inline-flex items-center justify-center px-6 py-2.5 bg-white text-[var(--color-brand-accent)] font-700 rounded-full no-underline hover:bg-[var(--color-accent-light)] transition-colors text-sm">
+        Book Your Cat's Stay
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Image -->
+<section class="py-0">
+  <div class="max-w-6xl mx-auto px-4 pb-16">
+    <div class="rounded-2xl overflow-hidden shadow-sm">
+      <img
+        src="/P2451/images/extended-page-opening-times-01-01.jpg"
+        alt="Opening times information at Hollytree Cattery"
+        class="w-full h-64 md:h-96 object-cover"
+        loading="lazy"
+        width="1200"
+        height="1149"
+      />
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-[var(--color-brand-accent-deep)] text-white py-12">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="grid md:grid-cols-3 gap-8 mb-8">
+      <div>
+        <h3 class="font-800 text-lg mb-4">Hollytree Cattery</h3>
+        <p class="text-white/80 text-sm leading-relaxed">Luxury boarding cattery in Colchester, serving Essex and Suffolk.</p>
+      </div>
+      <div>
+        <h3 class="font-800 text-lg mb-4">Pages</h3>
+        <ul class="list-none m-0 p-0 flex flex-col gap-2">
+          <li><a href="/P2451/" class="text-white/80 hover:text-white text-sm no-underline">Home</a></li>
+          <li><a href="/P2451/hollytreeourcattery-html" class="text-white/80 hover:text-white text-sm no-underline">Our Cattery</a></li>
+          <li><a href="/P2451/hollytreeopeningtimes-html" class="text-white/80 hover:text-white text-sm no-underline">Opening Times</a></li>
+          <li><a href="/P2451/hollytreecathealth-html" class="text-white/80 hover:text-white text-sm no-underline">Cat Health</a></li>
+          <li><a href="/P2451/hollytreecatteryprices-html" class="text-white/80 hover:text-white text-sm no-underline">Prices</a></li>
+          <li><a href="/P2451/hollytreecontactus-html" class="text-white/80 hover:text-white text-sm no-underline">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-800 text-lg mb-4">Contact</h3>
+        <ul class="list-none m-0 p-0 flex flex-col gap-2 text-sm text-white/80">
+          <li>21A Blackheath, Colchester</li>
+          <li><a href="tel:+441206562338" class="text-white/80 hover:text-white no-underline">01206 562338</a></li>
+          <li>Essex &amp; Suffolk</li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-white/20 pt-6 text-center text-white/60 text-sm">
+      &copy; {new Date().getFullYear()} Hollytree Cattery. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+  toggle?.addEventListener('click', () => {
+    const open = menu?.classList.toggle('hidden');
+    toggle.setAttribute('aria-expanded', String(!open));
+  });
+</script>
+
+</body>
+</html>
