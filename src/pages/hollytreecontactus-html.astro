@@ -135,7 +135,8 @@ const description = "Get in touch with Hollytree Cattery in Colchester. Call us 
       <!-- Contact form -->
       <div>
         <h2 class="text-2xl md:text-3xl font-800 text-[var(--color-ink)] mb-8">Send Us a Message</h2>
-        <form action="https://formspree.io/f/mwvaaojq" method="POST" class="flex flex-col gap-4">
+        <form action="/api/contact" method="POST" class="flex flex-col gap-4">
+            <input type="hidden" name="_site_id" value="P2451" /><input type="hidden" name="_business_name" value="Hollytree Luxury Boarding Cattery" /><input type="hidden" name="_business_email" value="" /><div style="position:absolute;left:-9999px" aria-hidden="true"><input type="text" name="_hp" tabindex="-1" autocomplete="off" /></div>
           <div>
             <label for="name" class="block text-sm font-600 text-[var(--color-ink)] mb-1.5">Your Name</label>
             <input
